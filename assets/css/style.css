@@ -24,5 +24,50 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 280%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+
+}
+
+#menu,
+#logo {
+    /* comma between menu and logo means it's listing multiple objects.
+    If you forget the comma computer will look for a child logo under menu.
+    This code sets the same height for menu and logo */
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    /* this moves menu to the right, 
+    if you float menu itself, it puts it to the right, 
+    but it does not align them horisontally, but li under menu would */
+    list-style-type: none;
+    /* this means list will not be bulleted 
+    or decorated in any way */
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    /* this removes the underline from menu */
+    color: inherit;
+    /* this turns menu same colour as body because it looks
+    at the hierarchy of the HTML and borrows from the parent */
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    /* a hover means when a mouse hovers over the menu it should
+    activate the border size, shape and colour */
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
