@@ -161,3 +161,10 @@ h2 {
     margin: 0 auto;
     background-color: green;
 }
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
