@@ -282,3 +282,41 @@ footer {
     /* this stops the crazy strethc when in different modes
       and it keeps four pictures per horisontal line. */
 }
+
+/* Media queries */
+
+/* For larger to medium screen size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        /* this pushes the image under the right
+        and left columns under them */
+        width: 100%;
+        float: left;
+    }
+
+    hr {
+        display: none;
+        /* makes the underline dissaper when
+        shrinking the screen size */
+    }
+}
