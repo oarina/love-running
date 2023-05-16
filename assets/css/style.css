@@ -332,4 +332,36 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0;
+        /* lover running box will push to the left 
+        flush */
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+        /* this makes right and left text align with 
+        screen edges */
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+        /* this makes the 4 h2's align to the center */
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 }
