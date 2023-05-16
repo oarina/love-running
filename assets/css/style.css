@@ -264,3 +264,21 @@ footer {
     margin: 1%;
     color: #3a3a3a;
 }
+
+/* gallery */
+
+#photos {
+    clear: both;
+    /* so that the photo section and it's contents
+    display below the header */
+    line-height: 0;
+    /* to remove any horisontal gaps between the images */
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
+    /* this stops the crazy strethc when in different modes
+      and it keeps four pictures per horisontal line. */
+}
