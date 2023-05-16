@@ -138,8 +138,6 @@ h2 {
 
 /* club ethos */
 
-/* club ethos */
-
 #club-ethos {
     height: 600px;
 }
@@ -220,4 +218,28 @@ hr {
     background-size: cover;
     width: 100%;
     overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* this slightly darkens it */
+    width: 20%;
+    /* this creates the little darker box to thes right of the screen */
+    height: 300px;
+    /* this blows up the darker boxes and image */
+    float: left;
+    /* this lines up the divs horisontally */
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box; 
+    /* this puts the boxes back in the horisontal line,
+    as it makes sure that the 20% for each div calculation
+    includes the border where before it was spilling out */
+}
+
+#times h2 {
+    color: #fafafa;
+    /* this gives the h2 and the logo white colour */
 }
